@@ -1,0 +1,137 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+#welcome {
+	height: 175px;
+}
+
+#info {
+	height: 210px;
+}
+
+footer {
+	height: 80px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 340px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+
+header h1 {
+	font-size: 30px;
+	font-weight: 700;
+	padding: 47px 0 0 0;
+}
+
+nav {
+	float: right;
+	padding: 53px 0 0 0;
+}
+
+nav ul li {
+	font-size: 14px;
+	font-weight: 700;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #77a466;
+	padding-left: 20px;
+}
+
+span {
+	color: #77a466;
+}
+
+img {
+	border-width: 3px 0 3px 0;
+	border-style: solid;
+	border-color: #77a466;
+}
+
+/***** WELCOME *****/
+
+#welcome h2 {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #77a466;
+}
+
+#welcome p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/***** INFO *****/
+
+#info .full-width {
+	overflow: auto;
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+}
+
+#info .third-width {
+	padding: 30px;
+}
+
+#info h3 {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#info ul {
+	padding: 0;
+	margin-left: -30px;
+}
+
+#info li p {
+	font-size: 16px;
+}
+
+#info li {
+	color: #77a466;
+	list-style-type: none;
+	line-height: 34px;
+}
+
+#middle {
+	border-right:  1px solid #dedbdc;
+	border-left:  1px solid #dedbdc;
+	width: 338px;
+}
+
+/***** FOOTER *****/
+
+
+footer h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 34px;
+}
+
+.fontsforweb_WisdomScriptAJ {
+	text-transform: lowercase;
+}
+
+
+
